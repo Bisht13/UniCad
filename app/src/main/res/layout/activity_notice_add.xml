@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoticeAddActivity"
+    android:background="@drawable/ic_notices_bg">
+
+    <Button
+        android:id="@+id/back_btn_notice_add"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_back_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/add_notice_text"
+        android:layout_width="340dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/ic_rectangle_13"
+        android:ems="10"
+        android:fontFamily="@font/regular"
+        android:hint="Add Notice"
+        android:inputType="textPersonName"
+        android:paddingLeft="30dp"
+        android:paddingBottom="350dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B6B6B8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_notice" />
+
+    <TextView
+        android:id="@+id/add_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:fontFamily="@font/semibold"
+        android:text="Add Notice"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_btn_notice_add" />
+
+    <Button
+        android:id="@+id/tick_addnotice"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_tick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_notice_text"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tick_addnotice"
+        app:layout_constraintEnd_toEndOf="@+id/tick_addnotice"
+        app:layout_constraintStart_toStartOf="@+id/tick_addnotice"
+        app:layout_constraintTop_toTopOf="@+id/tick_addnotice"
+        app:srcCompat="@drawable/ic_inside_tick" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

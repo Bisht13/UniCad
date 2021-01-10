@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "73484820510",
+    "firebase_url": "https://unicad-4a267-default-rtdb.firebaseio.com",
+    "project_id": "unicad-4a267",
+    "storage_bucket": "unicad-4a267.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73484820510:android:8cf3b172a5dee4b81c0e0f",
+        "android_client_info": {
+          "package_name": "com.adityabisht.unicad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73484820510-ip72o6c6gvm214h4spslichnu1ml9ri3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrh5f25P-UKn_Vjr0BLtAnnM2Wnu0MHj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73484820510-ip72o6c6gvm214h4spslichnu1ml9ri3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

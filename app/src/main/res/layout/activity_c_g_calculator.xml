@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_notices_bg"
+    tools:context=".CGCalculatorActivity">
+
+    <TextView
+        android:id="@+id/CG_Predictor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/semibold"
+        android:text="CG Predictor"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_btn_CG_predictor" />
+
+    <Button
+        android:id="@+id/back_btn_CG_predictor"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_back_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/cws_ete_ratio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_field"
+        android:fontFamily="@font/regular"
+        android:paddingLeft="25dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CG_Predictor" />
+
+    <EditText
+        android:id="@+id/avg_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_field"
+        android:ems="10"
+        android:fontFamily="@font/regular"
+        android:hint="Enter Average Score"
+        android:inputType="numberDecimal"
+        android:paddingLeft="25dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B6B6B8"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cws_ete_ratio" />
+
+    <EditText
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_field"
+        android:ems="10"
+        android:fontFamily="@font/regular"
+        android:hint="Enter Your Score"
+        android:inputType="numberDecimal"
+        android:paddingLeft="25dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B6B6B8"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avg_score" />
+
+    <TextView
+        android:id="@+id/notices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/regular"
+        android:text="Your Expected CG"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/max_score" />
+
+    <Button
+        android:id="@+id/cgpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle_13"
+        android:fontFamily="@font/semibold"
+        android:text="CGPA"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notices" />
+
+    <EditText
+        android:id="@+id/max_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_field"
+        android:ems="10"
+        android:fontFamily="@font/regular"
+        android:hint="Enter Maximum Score"
+        android:inputType="numberDecimal"
+        android:paddingLeft="25dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B6B6B8"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/score" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

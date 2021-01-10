@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@drawable/ic_welcome_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/semibold"
+        android:text="UniCad"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/unicad"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:text="All Academics in one place"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/unicad"
+        android:id="@+id/motto"
+        android:textSize="15sp"
+        android:layout_marginLeft="45dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/motto"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="199dp"
+        android:background="@drawable/ic_login_button"
+        android:fontFamily="@font/light"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not a member? Register"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/regular"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/register"
+        android:textColorLink="#E72C77"/>
+
+</RelativeLayout>
