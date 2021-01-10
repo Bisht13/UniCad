@@ -42,14 +42,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintVertical_bias="0.6" />
 
-    <ImageView
-        android:id="@+id/imageView14"
+    <TextView
+        android:id="@+id/TT"
         android:layout_width="399dp"
         android:layout_height="290dp"
         android:layout_marginTop="80dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/timetable_text"
-        tools:srcCompat="@drawable/tt" />
+        android:background="@drawable/ic_time_table"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
